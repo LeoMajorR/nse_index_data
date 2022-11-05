@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=46.4.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nse_data_leomajor"
+version = "0.0.1"
+description = "A package to download NSE data"
+author = "Ravi Prakash Singh"
+author_email = "ssingh.raviprakash@gmail.com"
+readme = "README.md"
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = "nse, data, download, finance"
+
+[project.urls]
+"Homepage" = "https://github.com/leomajor/nse_index_data"
+"Documentation" = "https://github.com/leomajor/nse_index_data"
+"Bug Tracker" = "https://github.com/leomajor/nse_index_data/issues"
