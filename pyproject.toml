@@ -6,10 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "nse_data_leomajor"
 version = "0.0.1"
 description = "A package to download NSE data"
-author = "Ravi Prakash Singh"
-author_email = "ssingh.raviprakash@gmail.com"
+authors = [
+    {name = "Leo Major", email = "ssingh.raviprakash@gmail.com"},
+]
 readme = "README.md"
-license = "MIT"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -20,7 +20,7 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
 ]
-keywords = "nse, data, download, finance"
+keywords = ["nse", "data", "download", "finance"]
 
 [project.urls]
 "Homepage" = "https://github.com/leomajor/nse_index_data"
